@@ -1,0 +1,96 @@
+body{
+
+    background-color: #000;
+    background-image: url("https://www.dccomics.com/sites/default/files/Gallery_20220329_BMBTWK1_6244ba3538d407.95233708.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+    font-family: 'Mouse Memoirs', sans-serif;
+
+
+}
+
+
+
+.grid-container{
+   
+
+
+}
+.headerImageDiv{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+
+.headerImage{
+
+    width: 160px;
+    height: 100px;
+    justify-self: center;
+    
+
+}
+
+.headerImage:hover{
+
+    width: 160px;
+    height: 100px;
+    justify-self: center;
+    filter: drop-shadow(0px 10px 3px black);
+
+}
+
+.navBar{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* border: 2px solid grey; */
+    /* border-radius: 10px; */
+    padding: 10px;
+    color: red;
+
+}
+
+.navBar > a{
+   
+    justify-self: center ;
+    text-decoration-color: red;
+    color: #fff;
+}
+
+
+.navBar > a:hover{
+
+    justify-self: center ;
+    text-decoration:underline;
+    font-weight: bold;
+    color: #fff;
+    text-decoration-color: red;
+    filter: drop-shadow(0px 10px 3px black);
+
+    
+}
+
+a{
+    align-self: center;
+    font-size:x-large;
+    grid-column: 2/5;
+ 
+}
+
+.joker{
+    grid-column: 2/3;
+
+}
+
+.crow{
+    grid-column: 3/4;
+
+}
+
+.bane{
+    grid-column: 4/5;
+}
+
