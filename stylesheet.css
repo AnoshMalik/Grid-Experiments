@@ -107,9 +107,17 @@ a{
 
 }
 
+.banner{
+    grid-area: 1/1/5/2;
+   
+    /* background-image: url("https://preview.redd.it/tlm3rcp02nx81.jpg?auto=webp&s=91353f03fa644dad11ca6f0f597da0ab85d489ae"); */
+}
+
+
+
 footer{
     position: fixed;
 /* left: 0; */
-right: 0;
-bottom: 0;
+    right: 0;
+    bottom: 0;
 }
