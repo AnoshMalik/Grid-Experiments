@@ -1,15 +1,17 @@
 body{
 
     background-color: #000;
-    background-image: url("https://www.dccomics.com/sites/default/files/Gallery_20220329_BMBTWK1_6244ba3538d407.95233708.jpg");
+    /* background-image: url("https://www.dccomics.com/sites/default/files/Gallery_20220329_BMBTWK1_6244ba3538d407.95233708.jpg"); */
     background-size: cover;
-    filter: grayscale(100%);
     font-family: 'Mouse Memoirs', sans-serif;
 
 
 }
 
+.description{
+    color: #fff;
 
+}
 
 .grid-container{
    
@@ -94,3 +96,20 @@ a{
     grid-column: 4/5;
 }
 
+
+
+.mainGrid{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+
+footer{
+    position: fixed;
+/* left: 0; */
+right: 0;
+bottom: 0;
+}
