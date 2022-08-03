@@ -72,16 +72,36 @@ a {
   grid-column: 4/5;
 }
 
+/* ADDING MEDIA QUERY */
+@media all and (max-width: 400px) {
+  .mainGrid {
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: auto-fit;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+
+    gap: 5px 5px;
+    justify-content: center;
+    /* overflow:initial; */
+    /* justify-items:left; */
+    /* align-items: center; */
+  }
+}
+
 .mainGrid {
+  max-width: 100%;
+
   display: grid;
-  grid-template-columns:  auto auto auto auto ;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+
   gap: 5px 5px;
   justify-content: center;
+  /* overflow:initial; */
   /* justify-items:left; */
   /* align-items: center; */
 }
-
 
 /* COMMENTED OUT IN HTML AS WELL */
 /* .banner {
@@ -92,14 +112,12 @@ a {
 
 .cartoon {
   border: 2px solid white;
-  grid
 }
 
 .thumbnail {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
-
 
 /* NTH CHILD OF MAIN */
 /* .mainGrid:nth-child(1) {
@@ -131,7 +149,6 @@ a {
 } */
 
 /* 2nd row */
-
 
 /* .mainGrid:nth-child(5) {
 
@@ -189,9 +206,7 @@ a {
 
 } */
 
-
 /* 4th row */
-
 
 /* 
 .mainGrid:nth-child(13) {
@@ -222,7 +237,6 @@ a {
 } */
 
 /* NTH CHILD ENDS ABOVE */
-
 
 footer {
   position: fixed;
