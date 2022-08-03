@@ -107,6 +107,26 @@ a {
   /* align-items: center; */
 }
 
+@media only screen and (max-width: 400px) {
+    .mainGrid {
+      max-width: 100%;
+  
+      display: grid;
+      grid-template-columns: auto auto;
+      /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  
+      gap: 5px 5px;
+      justify-content: center;
+       overflow: scroll;
+      /* justify-items:left; */
+      /* align-items: center; */
+    }
+  
+    .cartoon {
+      border: 2px solid green;
+    }
+  }
+
 /* COMMENTED OUT IN HTML AS WELL */
 /* .banner {
   grid-area: 1/1/5/2;
@@ -248,3 +268,5 @@ footer {
   right: 0;
   bottom: 0;
 }
+
+
