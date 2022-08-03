@@ -1,123 +1,232 @@
-body{
-
-    background-color: #000;
-    /* background-image: url("https://www.dccomics.com/sites/default/files/Gallery_20220329_BMBTWK1_6244ba3538d407.95233708.jpg"); */
-    background-size: cover;
-    font-family: 'Mouse Memoirs', sans-serif;
-
-
+body {
+  background-color: #000;
+  /* background-image: url("https://www.dccomics.com/sites/default/files/Gallery_20220329_BMBTWK1_6244ba3538d407.95233708.jpg"); */
+  background-size: cover;
+  font-family: "Mouse Memoirs", sans-serif;
 }
 
-.description{
-    color: #fff;
-
+.description {
+  color: #fff;
 }
 
-.grid-container{
-   
-
-
+.grid-container {
 }
-.headerImageDiv{
-
-    display: grid;
-    grid-template-columns: 1fr;
-    
+.headerImageDiv {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
-
-.headerImage{
-
-    width: 160px;
-    height: 100px;
-    justify-self: center;
-    
-
+.headerImage {
+  width: 160px;
+  height: 100px;
+  justify-self: center;
 }
 
-.headerImage:hover{
-
-    width: 160px;
-    height: 100px;
-    justify-self: center;
-    filter: drop-shadow(0px 10px 3px black);
-
+.headerImage:hover {
+  width: 160px;
+  height: 100px;
+  justify-self: center;
+  filter: drop-shadow(0px 10px 3px black);
 }
 
-.navBar{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
-    /* grid-template-rows: 1fr 1fr 1fr; */
-    /* border: 2px solid grey; */
-    /* border-radius: 10px; */
-    padding: 10px;
-    color: red;
-
+.navBar {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+  /* grid-template-rows: 1fr 1fr 1fr; */
+  /* border: 2px solid grey; */
+  /* border-radius: 10px; */
+  padding: 10px;
+  color: red;
 }
 
-.navBar > a{
-   
-    justify-self: center ;
-    text-decoration-color: red;
-    color: #fff;
+.navBar > a {
+  justify-self: center;
+  text-decoration-color: red;
+  color: #fff;
+}
+
+.navBar > a:hover {
+  justify-self: center;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #fff;
+  text-decoration-color: red;
+  filter: drop-shadow(0px 10px 3px black);
+}
+
+a {
+  align-self: center;
+  font-size: x-large;
+  grid-column: 2/5;
+}
+
+.joker {
+  grid-column: 2/3;
+}
+
+.crow {
+  grid-column: 3/4;
+}
+
+.bane {
+  grid-column: 4/5;
+}
+
+.mainGrid {
+  display: grid;
+  grid-template-columns:  auto auto auto auto ;
+  /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+  gap: 5px 5px;
+  justify-content: center;
+  /* justify-items:left; */
+  /* align-items: center; */
 }
 
 
-.navBar > a:hover{
+/* COMMENTED OUT IN HTML AS WELL */
+/* .banner {
+  grid-area: 1/1/5/2;
 
-    justify-self: center ;
-    text-decoration:underline;
-    font-weight: bold;
-    color: #fff;
-    text-decoration-color: red;
-    filter: drop-shadow(0px 10px 3px black);
+  background-image: url("https://preview.redd.it/tlm3rcp02nx81.jpg?auto=webp&s=91353f03fa644dad11ca6f0f597da0ab85d489ae");
+} */
 
-    
+.cartoon {
+  border: 2px solid white;
+  grid
 }
 
-a{
-    align-self: center;
-    font-size:x-large;
-    grid-column: 2/5;
- 
+.thumbnail {
+  width: 100px;
+  height: 100px;
 }
 
-.joker{
+
+/* NTH CHILD OF MAIN */
+/* .mainGrid:nth-child(1) {
+
     grid-column: 2/3;
-
+    grid-row: 1/2;
+    border: 5px solid green;
+    background-color: green;
 }
 
-.crow{
+.mainGrid:nth-child(2) {
+
     grid-column: 3/4;
+    grid-row: 1/2;
 
 }
 
-.bane{
+.mainGrid:nth-child(3) {
+
     grid-column: 4/5;
-}
-
-
-
-.mainGrid{
-
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-
+    grid-row: 1/2;
 
 }
+.mainGrid:nth-child(4) {
 
-.banner{
-    grid-area: 1/1/5/2;
-   
-    /* background-image: url("https://preview.redd.it/tlm3rcp02nx81.jpg?auto=webp&s=91353f03fa644dad11ca6f0f597da0ab85d489ae"); */
+    grid-column: 5/6;
+    grid-row: 1/2;
+
+} */
+
+/* 2nd row */
+
+
+/* .mainGrid:nth-child(5) {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+
 }
 
+.mainGrid:nth-child(6) {
+
+    grid-column: 3/4;
+    grid-row: 2/3;
+
+}
+
+.mainGrid:nth-child(7) {
+
+    grid-column: 4/5;
+    grid-row: 2/3;
+
+}
+.mainGrid:nth-child(8) {
+
+    grid-column: 5/6;
+    grid-row: 2/3;
+
+} */
+
+/* 3rd row */
+
+/* .mainGrid:nth-child(9) {
+
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+.mainGrid:nth-child(10) {
+
+    grid-column: 3/4;
+    grid-row: 3/4;
+
+}
+
+.mainGrid:nth-child(11) {
+
+    grid-column: 4/5;
+    grid-row: 3/4;
+
+}
+.mainGrid:nth-child(12) {
+
+    grid-column: 5/6;
+    grid-row: 3/4;
+
+} */
 
 
-footer{
-    position: fixed;
-/* left: 0; */
-    right: 0;
-    bottom: 0;
+/* 4th row */
+
+
+/* 
+.mainGrid:nth-child(13) {
+
+    grid-column: 2/3;
+    grid-row: 4/5;
+
+}
+
+.mainGrid:nth-child(14) {
+
+    grid-column: 3/4;
+    grid-row: 4/5;
+
+}
+
+.mainGrid:nth-child(15) {
+
+    grid-column: 4/5;
+    grid-row: 4/5;
+
+}
+.mainGrid:nth-child(16) {
+
+    grid-column: 5/6;
+    grid-row: 4/5;
+
+} */
+
+/* NTH CHILD ENDS ABOVE */
+
+
+footer {
+  position: fixed;
+  /* left: 0; */
+  right: 0;
+  bottom: 0;
 }
