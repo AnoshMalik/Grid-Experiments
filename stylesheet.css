@@ -58,6 +58,7 @@ a {
   align-self: center;
   font-size: x-large;
   grid-column: 2/5;
+  padding: 10px;
 }
 
 .joker {
@@ -73,25 +74,6 @@ a {
 }
 
 /* ADDING MEDIA QUERY */
-@media only screen and (max-width: 400px) {
-    .mainGrid {
-      max-width: 100%;
-  
-      display: grid;
-      grid-template-columns: auto auto;
-      /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-  
-      gap: 5px 5px;
-      justify-content: center;
-       overflow: scroll;
-      /* justify-items:left; */
-      /* align-items: center; */
-    }
-  
-    .cartoon {
-      border: 2px solid green;
-    }
-  }
 
 .mainGrid {
   max-width: 100%;
@@ -102,30 +84,33 @@ a {
 
   gap: 5px 5px;
   justify-content: center;
-   /* overflow:scroll;  */
+  /* overflow:scroll;  */
   /* justify-items:left; */
   /* align-items: center; */
 }
 
 @media only screen and (max-width: 400px) {
-    .mainGrid {
-      max-width: 100%;
-  
-      display: grid;
-      grid-template-columns: auto auto;
-      /* grid-template-rows: 1fr 1fr 1fr 1fr; */
-  
-      gap: 5px 5px;
-      justify-content: center;
-       overflow: scroll;
-      /* justify-items:left; */
-      /* align-items: center; */
-    }
-  
-    .cartoon {
-      border: 2px solid green;
-    }
+  .mainGrid {
+    max-width: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+
+    gap: 5px 5px;
+    justify-content: center;
+    overflow: scroll;
+    /* justify-items:left; */
+    /* align-items: center; */
   }
+
+  /* .cartoon {
+    border: 2px solid green;
+  } */
+
+ 
+ 
+}
 
 /* COMMENTED OUT IN HTML AS WELL */
 /* .banner {
@@ -268,5 +253,3 @@ footer {
   right: 0;
   bottom: 0;
 }
-
-
