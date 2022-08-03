@@ -58,7 +58,6 @@ a {
   align-self: center;
   font-size: x-large;
   grid-column: 2/5;
-  padding: 10px;
 }
 
 .joker {
@@ -108,7 +107,10 @@ a {
     border: 2px solid green;
   } */
 
- 
+  .navBar > a{
+    padding: 10px;
+
+ }
  
 }
 
