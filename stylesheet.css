@@ -78,7 +78,7 @@ a {
       max-width: 100%;
   
       display: grid;
-      grid-template-columns: auto-fit auto-fit;
+      grid-template-columns: auto auto;
       /* grid-template-rows: 1fr 1fr 1fr 1fr; */
   
       gap: 5px 5px;
